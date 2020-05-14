@@ -1,0 +1,35 @@
+.Title {
+    box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  margin-bottom: 2em;
+  background-color: rgb(49, 49, 49);
+  color: #fff;
+}
+.bodyDiv {
+    margin: 20%;
+    margin-top: 3%;
+}
+.ProgressBar {
+    margin-bottom: 6%;
+}
+.fadeOut{
+    opacity:0;
+    align-items: center;
+    text-align: center;
+    transition: width 0.75s 0.75s, height 0.75s 0.75s, opacity 0.75s;
+
+}
+.fadeIn{
+    opacity:1;
+    transition: width 0.75s, height 0.75s, opacity 0.75s 0.75s;
+    align-items: center;
+    text-align: center;
+
+}
+.form-control {
+width: 10%;
+height: 10%;
+}
